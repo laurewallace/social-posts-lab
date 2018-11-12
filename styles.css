@@ -1,0 +1,98 @@
+body {
+    background-color: #f3f1f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+}
+
+.add {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1000px;
+    font-family: 'Dosis', sans-serif;
+    height: 30px;
+}
+
+.posts {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.container {
+    background-color: white;
+    width: 1000px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+form {
+    background-color: #B1DDEA;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    width: 600px;
+    border: 1px solid black
+}
+
+.thought {
+    margin-bottom: 0px;
+    font-size: 25px;
+    width: 80%;
+}
+
+.title {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 25px;
+    width: 80%
+}
+
+input {
+    font-size: 16px;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+textarea {
+    height: 200px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.add-post {
+    background-color: white;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
